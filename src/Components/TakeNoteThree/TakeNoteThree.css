@@ -1,0 +1,121 @@
+.mainBox{
+    margin: 0%;
+    padding: 0%;
+}
+
+.MainContainerThree{
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.TitleRowThree{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.TitleTextThree{
+    width: 80%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+/* .TitleInput{
+    width: 100%;
+    height: 80%;
+} */
+
+.PinIconThree{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.TakeNoteTextThree{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+/* .DescriptionInput{
+    width: 80%;
+    height: 80%;
+} */
+
+.IconsThree{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#Check{
+    position: absolute;
+    right: 220px;
+    bottom: 140px;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px){
+    .MainContainerThree{
+        width: 80vw;
+        position: relative;
+        right: 135px;
+    }
+
+    .IconsThree{
+        width: 70%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :720px){
+    .MainContainerThree{
+        width: 75vw;
+        position: relative;
+        right: 135px;
+    }
+
+    .IconsThree{
+        width: 55%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width :721px) and (max-width :1024px){
+    .MainContainerThree{
+        width: 20vw;
+        height: 20vh;
+        position: relative;
+        right: 135px;
+    }
+
+    .TitleTextThree{
+        font-size: 15px;
+    }
+    
+
+    .IconsThree{
+        width: 70%;
+        margin-left: 15px;
+    }
+
+}

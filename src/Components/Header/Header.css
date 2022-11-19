@@ -1,0 +1,201 @@
+.NavBarMainContainer {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.HamBurger {
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.KeepLogo {
+    width: 2%;
+    height: 90%;
+    padding-top: 5px;
+}
+
+#keep {
+    
+    padding-left: 10px;
+    font-size: 22px;
+    color: #5f6368;
+}
+
+.Blank1 {
+    width: 5%;
+    height: 100%;
+}
+
+.SearchBox {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F1F3F4;
+    border-radius: 10px;
+}
+
+#search {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#filled-search {
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 640px;
+    height: 35px;
+}
+
+.SearchIcon2 {
+    display: none;
+}
+
+.Blank2 {
+    width:24%;
+    height: 100%;
+}
+
+.MenuIcons {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Avatar {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px) {
+    .NavBarMainContainer {
+        width: 100%;
+    }
+    .HamBurger {
+        padding-left: 20px;
+    }
+
+    .KeepLogo {
+        padding-left: 10px;
+    }
+    
+
+    #keep {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    .Blank1 {
+        display: none;
+    }
+
+    .SearchBox {
+        display: none;
+    }
+
+    .SearchIcon2 {
+        display: flex;
+        padding-bottom: 10px;
+        width: 20%;
+    }
+
+    .Blank2 {
+        width: 10%;
+    }
+
+    .MenuIcons {
+        width: 35%;
+    }
+
+    .Avatar {
+        width: 20%;
+        gap: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :600px){
+    .NavBarMainContainer {
+        width: 100%;
+    }
+    .HamBurger {
+        padding-left: 10px;
+    }
+
+    .KeepLogo {
+        padding-left: 10px;
+    }
+    
+
+    #keep {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    .Blank1 {
+        display: none;
+    }
+
+    .SearchBox {
+        display: none;
+    }
+
+    .SearchIcon2 {
+        display: flex;
+        padding-bottom: 10px;
+        width: 20%;
+    }
+
+    .Blank2 {
+        width: 10%;
+    }
+
+    .MenuIcons {
+        width: 30%;
+    }
+
+    .Avatar {
+        width: 20%;
+        gap: 15px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width :601px) and (max-width :1024px){
+    .NavBarMainContainer{
+        width: 100%;
+    }
+
+    #keep {
+        padding-left: 20px;
+    }
+
+    #search {
+        padding-left: 250px;
+        padding-top: 10px;
+    }
+    
+    .SearchIcon2 {
+        display: none;
+    }
+    
+    .Blank2 {
+        width: 10%;
+    }
+}

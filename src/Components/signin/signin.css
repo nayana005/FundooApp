@@ -1,0 +1,310 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MainContainer1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box1 {
+    width: 25%;
+    height: 70%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo1 {
+    width: 30%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#Logo1 {
+    width: 80px;
+    height: 25px;
+}
+
+.Heading1 {
+    width: 50%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#SignIn {
+    font-size: 24px;
+}
+
+#Use {
+    font-size: 16px;
+}
+
+.UsernameContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UserBox {
+    width: 90%;
+}
+
+.ForgotUsername {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 10px;
+}
+
+.LearnMoreText {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 10px;
+}
+
+.PasswordContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Text {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#NotText {
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.BoxBottom1 {
+    width: 93%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.AddAccount {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Next {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BottomText1 {
+    width: 25%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Languages {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#BottomText {
+    font-size: 12px;
+}
+
+.Menu1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px) {
+    .MainContainer1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .Box1 {
+        width: 80%;
+        height: 70%;
+        border: none;
+    }
+
+    .Logo1 {
+        margin-top: 10px;
+    }
+
+    .Heading1 {
+        width: 70%;
+        height: 15%;
+    }
+
+    #SignIn {
+        font-size: 20px;
+    }
+
+    #Use {
+        font-size: 14px;
+    }
+
+    .UsernameContainer {
+        margin-top: 10px;
+    }
+
+    .ForgotUsername {
+        margin-top: 10px;
+    }
+
+    #NotText {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .Next {
+        margin-right: 10px;
+    }
+
+    .BottomText1 {
+        width: 80%;
+    }
+
+    #BottomText {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (min-width :481px) and (max-width :720px) {
+    .MainContainer1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .Box1 {
+        width: 80%;
+        height: 70%;
+        border: none;
+    }
+
+    .Logo1 {
+        margin-top: 10px;
+    }
+
+    .Heading1 {
+        width: 70%;
+        height: 15%;
+    }
+
+    #SignIn {
+        font-size: 20px;
+    }
+
+    #Use {
+        font-size: 14px;
+    }
+
+    .UsernameContainer {
+        margin-top: 15px;
+    }
+
+    .ForgotUsername {
+        margin-top: 15px;
+    }
+
+    #NotText {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .Next {
+        margin-right: 10px;
+    }
+
+    .BottomText1 {
+        width: 80%;
+    }
+
+    #BottomText {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width :721px) and (max-width :1024px){
+    .MainContainer1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .Box1 {
+        width: 50%;
+        height: 60%;
+    }
+
+    .Heading1 {
+        width: 70%;
+        height: 15%;
+    }
+
+    #SignIn {
+        font-size: 20px;
+    }
+
+    #Use {
+        font-size: 14px;
+    }
+
+    .UsernameContainer {
+        margin-top: 15px;
+    }
+
+    .ForgotUsername {
+        margin-top: 15px;
+    }
+
+    #NotText {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .Next {
+        margin-right: 10px;
+    }
+
+    .BottomText1 {
+        width: 50%;
+    }
+
+    #BottomText {
+        font-size: 10px;
+    }
+}

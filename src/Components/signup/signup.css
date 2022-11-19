@@ -1,0 +1,468 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box1 {
+    width: 50%;
+    height: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section1 {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#Logo {
+    width: 80px;
+    height: 25px;
+}
+
+.Heading {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#Heading {
+    font-size: 20px;
+}
+
+.NameBox {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#outlined-size-small-1 {
+    width: 160px;
+}
+
+.UsernameBox {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+
+#SmallText {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #5f6368;
+}
+
+.BlueText1 {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#BlueText {
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.PasswordBox {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.PasswordFields {
+    width: 100%;
+    height: 33.2%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.BottomBox {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.SignIn {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Next {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Section2 {
+    width: 35%;
+    height: 50%;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.Section2Img {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Section2-Img {
+    width: 200px;
+    height: 500px;
+}
+
+.Section2-Text {
+    width: 80%;
+    height: 25%;
+    font-weight: lighter;
+}
+
+.BottomText {
+    width: 70%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Languages {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#BottomText {
+    font-size: 12px;
+}
+
+.Menu {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px) {
+
+    .Box1 {
+        width: 80%;
+        height: 90%;
+        border: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Section1 {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Logo {
+        width: 80%;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .Heading {
+        width: 100%;
+        height: 10%;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #Heading {
+        font-size: 15px;
+    }
+
+    .NameBox {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #outlined-size-small-1 {
+        width: 230px;
+        height: 1ch;
+        margin-bottom: 20px;
+    }
+
+    .UsernameBox {
+        width: 259px;
+        height: 20%;
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+
+    #SmallText {
+        width: 259px;
+        padding-top: 50px;
+        margin-left: 15px;
+        text-align: left;
+    }
+
+    .BlueText1 {
+        width: 259px;
+        height: 10%;
+        margin-left: 15px;
+    }
+
+    #BlueText {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .PasswordFields {
+        width: 259px;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    #checkBox1 {
+        width: 300px;
+        margin-left: 15px;
+        text-align: left;
+    }
+
+    .BottomBox {
+        margin-top: 70px;
+    }
+
+    .SignIn {
+        margin-left: 15px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .Next {
+        padding-left: 130px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .Section2 {
+        display: none;
+    }
+
+    .BottomText {
+        width: 80%;
+    }
+
+    #BottomText {
+        font-size: 12px;
+    }
+
+    .Menu {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :600px){
+    .Box1 {
+        width: 80%;
+        height: 90%;
+        border: none;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Section1 {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Logo {
+        width: 80%;
+        
+        margin-bottom: 20px;
+    }
+
+    .Heading {
+        width: 300px;
+        height: 10%;
+        text-align: left;
+        
+    }
+
+    #Heading {
+        font-size: 20px;
+    }
+
+    .NameBox {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #outlined-size-small-1 {
+        width: 340px;
+        height: 1ch;
+        margin-bottom: 20px;
+    }
+
+    .UsernameBox {
+        width: 368px;
+        height: 20%;
+        margin-top: 35px;
+        
+    }
+
+    #SmallText {
+        width: 380px;
+        padding-top: 50px;
+       
+        text-align: left;
+    }
+
+    .BlueText1 {
+        width: 259px;
+        height: 10%;
+        
+    }
+
+    #BlueText {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .PasswordFields {
+        width: 259px;
+        flex-direction: column;
+        
+    }
+
+    #checkBox1 {
+        
+        text-align: left;
+    }
+
+    .BottomBox {
+        margin-top: 70px;
+    }
+
+    .SignIn {
+        
+        position: relative;
+        bottom: 50px;
+    }
+
+    .Next {
+        padding-left: 220px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .Section2 {
+        display: none;
+    }
+
+    .BottomText {
+        width: 80%;
+    }
+
+    #BottomText {
+        font-size: 12px;
+    }
+
+    .Menu {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width :601px) and (max-width :1024px){
+    .Box1 {
+        width: 55%;
+        height: 65%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .Section1 {
+        width: 80%;
+        height: 90%;
+    }
+    
+    #Heading {
+        font-size: 22px;
+    }
+
+    #outlined-size-small-1 {
+        width: 140px;
+        height: 1.8ch;
+    }
+    
+    #SmallText {
+        width: 500px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .Section2 {
+        display: none;
+    }
+    
+    .BottomText {
+        width:55%;
+    }
+}

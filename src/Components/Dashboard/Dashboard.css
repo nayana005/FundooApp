@@ -1,0 +1,37 @@
+.NotesContainer {
+    width: 70vw;
+    height: auto;
+    margin-Top: 50px;
+    margin-Left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px){
+
+    .NotesContainer {
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 100px;
+    }
+}
+
+@media only screen and (min-width :481px) and (max-width :720px){
+    .NotesContainer {
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 100px;
+    }
+}
+
+@media only screen and (min-width :721px) and (max-width :1024px){
+    .NotesContainer {
+        flex-direction: row;
+    }
+}
